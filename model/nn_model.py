@@ -57,8 +57,6 @@ class Solution:
         Y = self.Y
         sess = self.sess
         cost = self.cost
-        x_data = self.x_data
-        y_data = self.y_data
         
         # **********
         # 신경망 학습 모델
@@ -77,8 +75,7 @@ class Solution:
         Y = self.Y
         model = self.model
         sess = self.sess
-        x_data = self.x_data
-        y_data = self.y_data
+        
         # *********
         # 결과확인
         # ********

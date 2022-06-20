@@ -1,7 +1,5 @@
 import numpy as np
  
-
-
 class Perceptron(object):
     """퍼셉트론 분류기
     매개변수

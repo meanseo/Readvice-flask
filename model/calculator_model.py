@@ -31,7 +31,7 @@ class CalculatorModel:
         feed_dict = {'w1': 8.0, 'w2': 2.0}
         r = tf.add(w1, w2, name='op_add')
         sess = tf.Session()
-        _ = tf.Variable(initial_value = 'fake_variable')
+        _ = tf.Variable(initial_value = 'fake_variable') # 텐서플로우 책 p118~참고
         sess.run(tf.global_variables_initializer())
         saver = tf.train.Saver()
         print(f"feed_dict['w1'] : {feed_dict['w1']}")

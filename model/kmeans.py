@@ -12,7 +12,7 @@ import seaborn as sns
 import pandas as pd
 import tensorflow.compat.v1 as tf
 
-class Kmean():
+class Kmean:
     def execute(self):
         vectors_set = []
         num_points = 2000
